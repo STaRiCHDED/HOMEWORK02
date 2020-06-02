@@ -1,10 +1,8 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include <iosrteam> //Создаём программу
 int main()
 {
-  string name;
-  cin >> name; 
-  cout << "Hello world from " << name << endl;
-  return 0;
-}
+    std::string name;
+    getline(cin, name);
+    std::cout << "Hello world from " << name << std::endl;
+    return 0;
+} //Программа завершила работу
